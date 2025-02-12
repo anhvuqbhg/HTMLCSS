@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.navbar-nav .nav-item a {
+    text-decoration: none;
+    font-size: 15px;
+    margin: auto;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.text-banner {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 80%;
+}
+.text-banner h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.text-banner p {
+    font-size: 1rem;
+}
+
+.row .col-md-4 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.thongtin {
+    display: grid;
+    gap: 10px;
+}
+.thongtin h3 {
+    font-size: 18px;
+}
